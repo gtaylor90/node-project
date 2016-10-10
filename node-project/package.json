@@ -12,6 +12,8 @@
   "scripts": {
     "start": "node app.js"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
   "license": "ISC"
 }
