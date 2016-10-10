@@ -1,9 +1,9 @@
 {
-  "name": "chat-example",
+  "name": "node-app",
   "version": "0.0.0",
-  "description": "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.",
+  "description": "Node application tutorial",
   "main": "server.js",
-  "author": "Mostafa Eweda <mo.eweda@gmail.com>",
+  "author": "Graham Taylor ",
   "dependencies": {
     "async": "~0.2.8",
     "express": "^4.13.3",
@@ -13,7 +13,9 @@
     "start": "node app.js"
   },
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.1",
+    "jshint": "^2.9.3"
   },
   "license": "ISC"
 }
